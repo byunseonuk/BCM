@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:id="@+id/imgView"
+                android:background="@drawable/image_frame"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:id="@+id/recapture_camera_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="명함 촬영"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_company" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_name" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner3"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_phone" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner4"
+                />
+
+            <EditText
+                android:id="@+id/editText_main_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner5"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_email" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner6"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_main_address" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:id="@+id/button_main_insert" />
+
+    </LinearLayout>
+</ScrollView>
